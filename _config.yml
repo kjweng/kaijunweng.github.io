@@ -10,7 +10,7 @@ title: Kai Jun Weng
 email: wengkj@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Kai Jun Weng's personal website
-baseurl: "/personal_site" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 github_username:  kjweng
 
 # Build settings
