@@ -1,0 +1,16 @@
+---
+layout: page
+title: Class Notes
+permalink: /notes/
+---
+<p>These are notes I have for various classes I have taken:</p>
+<div>
+    {% assign notes = (site.posts | where: "category" , "notes") %}
+    <ul class="post-list">
+    {% for post in notes %}
+        <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+</div>
