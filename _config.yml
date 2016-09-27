@@ -14,6 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 github_username: kjweng
 twitter_username: wengkj
 linkedin_username: kai-jun-weng-013225a2
+google_analytics: UA-84808239-1
 
 # Build settings
 markdown: kramdown
